@@ -9,12 +9,12 @@ The code is relatively uncomplicated, just a few short python notebooks for eval
 
 If you need any assistance or have any questions, contact me at ciaran.aj.ohare@gmail.com
 
-If you use anything here please cite the paper, [Caputo et al.](https://arxiv.org/abs/2006.10415)
+If you use anything here please cite the paper, [Caputo et al. 2021](https://arxiv.org/abs/2006.10415)
 ```
-@article{Caputo:2021XXX,
+@article{Caputo:2021,
     author = "Caputo, A. and O'Hare, C.A.J. and Millar, A.J. and Vitagliano, E.",
     title = "{Dark photon limits: a cookbook}",
-    eprint = "2105.XXXX",
+    eprint = "2105.XXXXX",
     archivePrefix = "arXiv",
     primaryClass = "hep-ph",
     month = "05",

@@ -72,7 +72,7 @@ These plots show when the best time to do a second and third measurement, to sta
 ---
 [<img align="right" src="plots/plots_png/PolarisationMap_Zenith.png" height="250">](https://github.com/cajohare/DarkPhotonCookbook/raw/master/plots/plots_png/PolarisationMap_Zenith.png)
 ### [Polarisation reconstruction:](https://github.com/cajohare/DarkPhotonCookbook/blob/master/Plot_PolarisationMaps.ipynb)
-### Assuming experiment measures the DP signal and monitors the daily modulation, could it reconstruct the DP polarisation: Yes.
+Assuming experiment measures the DP signal and monitors the daily modulation, could it reconstruct the DP polarisation: Yes.
 ### &nbsp;
 ### &nbsp;
 ### &nbsp;

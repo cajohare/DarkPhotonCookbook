@@ -1,4 +1,4 @@
-[![arXiv](https://img.shields.io/badge/arXiv-2006.10415-B31B1B.svg)](https://arxiv.org/abs/2105.04565)
+[![arXiv](https://img.shields.io/badge/arXiv-2105.04565-B31B1B.svg)](https://arxiv.org/abs/2105.04565)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
 

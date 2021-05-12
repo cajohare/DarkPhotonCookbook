@@ -47,7 +47,7 @@ This plot is to show the preferential latitudes for doing day-long measurements,
 ### &nbsp;
 ---
 [<img align="right" src="plots/plots_png/North_costh_dist.png" height="200">](https://github.com/cajohare/DarkPhotonCookbook/raw/master/plots/plots_png/North_costh_dist.png)
-### [Geometry factor distributions:](https://github.com/cajohare/DarkPhotonCookbook/blob/master/code/Polarisation_Angles.ipynb)
+### [Geometry factor distributions:](https://github.com/cajohare/DarkPhotonCookbook/blob/master/code/Polarisation_angles.ipynb)
 This notebook creates the full distributions of the geometry factor for a range of measurement times and for a range of experimental orientations and latitudes
 ### &nbsp;
 ### &nbsp;

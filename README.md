@@ -39,7 +39,7 @@ If you use anything here please cite the paper, [Caputo et al. 2021](https://arx
 
 # Notebooks
 [<img align="right" src="plots/plots_png/LocationDependence.png" height="250">](https://github.com/cajohare/DarkPhotonCookbook/raw/master/plots/plots_png/LocationDependence.png)
-### [Latitude dependence:](https://github.com/cajohare/DarkPhotonCookbook/blob/master/LocationDependence.ipynb)
+### [Latitude dependence:](https://github.com/cajohare/DarkPhotonCookbook/blob/master/code/LocationDependence.ipynb)
 This plot is to show the preferential latitudes for doing day-long measurements, the locations at the peaks of these curves are about as good as an experiment could ever do. Integer-day long measurements are also the best.
 ### &nbsp;
 ### &nbsp;
@@ -47,7 +47,7 @@ This plot is to show the preferential latitudes for doing day-long measurements,
 ### &nbsp;
 ---
 [<img align="right" src="plots/plots_png/North_costh_dist.png" height="200">](https://github.com/cajohare/DarkPhotonCookbook/raw/master/plots/plots_png/North_costh_dist.png)
-### [Geometry factor distributions:](https://github.com/cajohare/DarkPhotonCookbook/blob/master/Polarisation_Angles.ipynb)
+### [Geometry factor distributions:](https://github.com/cajohare/DarkPhotonCookbook/blob/master/code/Polarisation_Angles.ipynb)
 This notebook creates the full distributions of the geometry factor for a range of measurement times and for a range of experimental orientations and latitudes
 ### &nbsp;
 ### &nbsp;
@@ -55,7 +55,7 @@ This notebook creates the full distributions of the geometry factor for a range 
 ### &nbsp;
 ---
 [<img align="right" src="plots/plots_png/Improvement_Plane.png" height="250">](https://github.com/cajohare/DarkPhotonCookbook/raw/master/plots/plots_png/Improvement_Plane.png)
-### [Improvement factors:](https://github.com/cajohare/DarkPhotonCookbook/blob/master/Improvement.ipynb)
+### [Improvement factors:](https://github.com/cajohare/DarkPhotonCookbook/blob/master/code/Improvement.ipynb)
 These plots are for demonstrating the improvement that you get when accounting for the timing and direction information relative to the case where you just ignore it all together. The upper dashed line is the best any experiment could hope to do.
 ### &nbsp;
 ### &nbsp;
@@ -63,15 +63,15 @@ These plots are for demonstrating the improvement that you get when accounting f
 ### &nbsp;
 ---
 [<img align="right" src="plots/plots_png/RescanTwice_North.png" height="250">](https://github.com/cajohare/DarkPhotonCookbook/raw/master/plots/plots_png/RescanTwice_North.png)
-### [Making multiple measurements:](https://github.com/cajohare/DarkPhotonCookbook/blob/master/Polarisation_rescan_Twice.ipynb)
-These plots show when the best time to do a second and third measurement, to stack onto an earlier one. There is also an earlier version for just two measurements instead of three which can be found [here](https://github.com/cajohare/DarkPhotonCookbook/blob/master/Polarisation_rescan.ipynb)
+### [Making multiple measurements:](https://github.com/cajohare/DarkPhotonCookbook/blob/master/code/Polarisation_rescan_Twice.ipynb)
+These plots show when the best time to do a second and third measurement, to stack onto an earlier one. There is also an earlier version for just two measurements instead of three which can be found [here](https://github.com/cajohare/DarkPhotonCookbook/blob/master/code/Polarisation_rescan.ipynb)
 ### &nbsp;
 ### &nbsp;
 ### &nbsp;
 ### &nbsp;
 ---
 [<img align="right" src="plots/plots_png/PolarisationMap_Zenith.png" height="250">](https://github.com/cajohare/DarkPhotonCookbook/raw/master/plots/plots_png/PolarisationMap_Zenith.png)
-### [Polarisation reconstruction:](https://github.com/cajohare/DarkPhotonCookbook/blob/master/Plot_PolarisationMaps.ipynb)
+### [Polarisation reconstruction:](https://github.com/cajohare/DarkPhotonCookbook/blob/master/code/Plot_PolarisationMaps.ipynb)
 Assuming experiment measures the DP signal and monitors the daily modulation, could it reconstruct the DP polarisation: Yes.
 ### &nbsp;
 ### &nbsp;

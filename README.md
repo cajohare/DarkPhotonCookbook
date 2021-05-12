@@ -3,7 +3,7 @@
 
 
 # Dark Photon Cookbook
-Python-3 Code to reproduce the results from our paper arXiv:[2105.XXXXX] "Dark photons: a cookbook"
+Python-3 Code to reproduce the results from our paper arXiv:[2105.04565] "Dark photons: a cookbook"
 
 The code is relatively uncomplicated, just a few short python notebooks for evaluating the expressions in the paper, and doing some simple Monte Carlo distributions. If you are here looking for the code and data needed to make the Dark Photon limit plots, you need to head to [this repo](https://github.com/cajohare/AxionLimits) instead.
 

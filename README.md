@@ -34,8 +34,8 @@ If you use anything here please cite the paper, [Caputo et al. 2021](https://arx
 * [`diagrams/`](https://github.com/cajohare/DarkPhotonCookbook/tree/main/diagrams) a few keynote files which we used to make the diagrams in the paper
 
 # Code
-* [`LabFuncs.py`](https://github.com/cajohare/DarkPhotonCookbook/blob/master/LabFuncs.py) functions for calculating angles
-* [`PlotFuncs.py`](https://github.com/cajohare/DarkPhotonCookbook/blob/master/PlotFuncs.py) contains various things needed to make the plots
+* [`LabFuncs.py`](https://github.com/cajohare/DarkPhotonCookbook/blob/master/code/LabFuncs.py) functions for calculating angles
+* [`PlotFuncs.py`](https://github.com/cajohare/DarkPhotonCookbook/blob/master/code/PlotFuncs.py) contains various things needed to make the plots
 
 # Notebooks
 [<img align="right" src="plots/plots_png/LocationDependence.png" height="250">](https://github.com/cajohare/DarkPhotonCookbook/raw/master/plots/plots_png/LocationDependence.png)

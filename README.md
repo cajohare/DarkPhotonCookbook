@@ -28,10 +28,10 @@ If you use anything here please cite the paper, [Caputo et al. 2021](https://arx
 * [`tqdm`](https://pypi.org/project/tqdm/)
 
 # Contents
-* [`code/`](code/README.md) contains python code and notebooks 
-* [`mathematica/`](mathematica/README.md) contains a single mathematica notebook that demonstrates a few of the analytic results
-* [`plots/`](mathematica/README.md) contains all the plots in pdf and png formats
-* [`diagrams/`](diagrams/README.md) a few keynote files which we used to make the diagrams in the paper
+* [`code/`](https://github.com/cajohare/DarkPhotonCookbook/tree/main/code) contains python code and notebooks 
+* [`mathematica/`](https://github.com/cajohare/DarkPhotonCookbook/tree/main/mathematica) contains a single mathematica notebook that demonstrates a few of the analytic results
+* [`plots/`](https://github.com/cajohare/DarkPhotonCookbook/tree/main/plots) contains all the plots in pdf and png formats
+* [`diagrams/`](https://github.com/cajohare/DarkPhotonCookbook/tree/main/diagrams) a few keynote files which we used to make the diagrams in the paper
 
 # Code
 * [`LabFuncs.py`](https://github.com/cajohare/DarkPhotonCookbook/blob/master/LabFuncs.py) functions for calculating angles

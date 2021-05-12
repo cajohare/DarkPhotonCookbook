@@ -1,4 +1,4 @@
-[![arXiv](https://img.shields.io/badge/arXiv-2006.10415-B31B1B.svg)](https://arxiv.org/abs/2006.10415)
+[![arXiv](https://img.shields.io/badge/arXiv-2006.10415-B31B1B.svg)](https://arxiv.org/abs/2105.04565)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
 
@@ -9,12 +9,12 @@ The code is relatively uncomplicated, just a few short python notebooks for eval
 
 If you need any assistance or have any questions, contact me at ciaran.aj.ohare@gmail.com
 
-If you use anything here please cite the paper, [Caputo et al. 2021](https://arxiv.org/abs/2006.10415)
+If you use anything here please cite the paper, [Caputo et al. 2021](https://arxiv.org/abs/2105.04565)
 ```
 @article{Caputo:2021,
     author = "Caputo, A. and O'Hare, C.A.J. and Millar, A.J. and Vitagliano, E.",
     title = "{Dark photon limits: a cookbook}",
-    eprint = "2105.XXXXX",
+    eprint = "2105.04565",
     archivePrefix = "arXiv",
     primaryClass = "hep-ph",
     month = "05",

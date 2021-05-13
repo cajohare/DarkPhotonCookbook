@@ -23,7 +23,7 @@ from scipy.stats import gaussian_kde
 import matplotlib.ticker as mticker
 from mpl_toolkits.axes_grid1 import make_axes_locatable
 from scipy.stats import norm
-from Params import *
+from numba import jit,njit,prange
 
 pltdir = '../plots/'
 pltdir_png = pltdir+'plots_png/'

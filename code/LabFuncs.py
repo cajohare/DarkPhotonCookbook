@@ -3,6 +3,7 @@
 #==============================================================================#
 
 from numpy import *
+from numba import jit,njit,prange
 
 #==============================================================================#
 '''
@@ -128,8 +129,8 @@ vv_earthrev = 29.79
 eccentricity = 0.016722
 eccentricity_deg = 0.9574
 orb_long_ecliptic = 13.0+1.0
-lat_ecl_gal = np.array([-5.5303,59.575,29.812])
-long_ecl_gal = np.array([266.141,-13.3485,179.3212])
+lat_ecl_gal = array([-5.5303,59.575,29.812])
+long_ecl_gal = array([266.141,-13.3485,179.3212])
 e1 = array([0.9941,0.1088,0.0042])
 e2 = array([-0.0504,0.4946,-0.8677])
 w_p = 2*pi/365 # orbital freq.
@@ -145,10 +146,8 @@ bigG = 6.67e-11*(1.0e3)**(-3)
 Jan1 = 2458849.5 # Julian date of January 1 2019
 
 #------------------------------------------------------------------------------#
-def LabVelocity(day, Loc=Params.Boulby, v_LSR=233.0):
+def LabVelocity(day, lat,lon, v_LSR=233.0):
     JD = day+Jan1
-    lat = Loc.Latitude
-    lon = Loc.Longitude
 
     # Convert day into phase of Earth rotation t_lab
     UT = 24*(JD+0.5-floor(JD+0.5)) #Universal time
@@ -160,7 +159,7 @@ def LabVelocity(day, Loc=Params.Boulby, v_LSR=233.0):
 
 
     # Galactic (LSR) Rotation
-    vtemp = np.array([0.0,v_LSR,0.0])
+    vtemp = array([0.0,v_LSR,0.0])
     v_galrot = gal2lab(vtemp,t_lab, lat) #transform to lab co-ords
 
     # Peculiar solar Motion
@@ -181,10 +180,10 @@ def LabVelocity(day, Loc=Params.Boulby, v_LSR=233.0):
     v_earthrev = gal2lab(v_earthrev1,t_lab, lat) #transform to lab co-ords
 
     # Earth's rotation (already in lab co-ords)
-    v_earthrot = 0.465102*cos(lat*pi/180)*np.array([0.0,-1.0,0.0])
+    v_earthrot = 0.465102*cos(lat*pi/180)*array([0.0,-1.0,0.0])
 
     # Add them all together (delete as needed)
-    v_lab = np.array([0.,0.,0.])
+    v_lab = array([0.,0.,0.])
     v_lab += v_earthrot
     v_lab += v_earthrev
     v_lab += v_solar

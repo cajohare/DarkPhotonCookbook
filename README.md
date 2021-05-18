@@ -27,9 +27,10 @@ If you use anything here please cite the paper, [Caputo et al. 2021](https://arx
 * [`cmocean`](https://matplotlib.org/cmocean/)
 * [`numba`](http://numba.pydata.org/)
 * [`tqdm`](https://pypi.org/project/tqdm/)
+* [`cartopy`](https://scitools.org.uk/cartopy/docs/latest/#)
 
 # Contents
-* [`code/`](https://github.com/cajohare/DarkPhotonCookbook/tree/main/code) contains python code and notebooks 
+* [`code/`](https://github.com/cajohare/DarkPhotonCookbook/tree/main/code) contains python code and notebooks
 * [`mathematica/`](https://github.com/cajohare/DarkPhotonCookbook/tree/main/mathematica) contains a single mathematica notebook that demonstrates a few of the analytic results
 * [`plots/`](https://github.com/cajohare/DarkPhotonCookbook/tree/main/plots) contains all the plots in pdf and png formats
 * [`diagrams/`](https://github.com/cajohare/DarkPhotonCookbook/tree/main/diagrams) a few keynote files which we used to make the diagrams in the paper
@@ -42,6 +43,14 @@ If you use anything here please cite the paper, [Caputo et al. 2021](https://arx
 [<img align="right" src="plots/plots_png/LocationDependence.png" height="250">](https://github.com/cajohare/DarkPhotonCookbook/raw/master/plots/plots_png/LocationDependence.png)
 ### [Latitude dependence:](https://github.com/cajohare/DarkPhotonCookbook/blob/master/code/LocationDependence.ipynb)
 This plot is to show the preferential latitudes for doing day-long measurements, the locations at the peaks of these curves are about as good as an experiment could ever do. Integer-day long measurements are also the best.
+### &nbsp;
+### &nbsp;
+### &nbsp;
+### &nbsp;
+---
+[<img align="right" src="plots/plots_png/Map_North.png" height="250">](https://github.com/cajohare/DarkPhotonCookbook/raw/master/plots/plots_png/Map_North.png)
+### [Latitude dependence:](https://github.com/cajohare/DarkPhotonCookbook/blob/master/code/LocationMaps.ipynb)
+Same, but in a map format
 ### &nbsp;
 ### &nbsp;
 ### &nbsp;

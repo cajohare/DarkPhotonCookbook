@@ -12,13 +12,17 @@ If you need any assistance or have any questions, contact me at ciaran.aj.ohare@
 If you use anything here please cite the paper, [Caputo et al. 2021](https://arxiv.org/abs/2105.04565)
 ```
 @article{Caputo:2021eaa,
-    author = "Caputo, Andrea and O'Hare, Ciaran A. J. and Millar, Alexander J. and Vitagliano, Edoardo",
-    title = "{Dark photon limits: a cookbook}",
+    author = "Caputo, Andrea and Millar, Alexander J. and O'Hare, Ciaran A. J. and Vitagliano, Edoardo",
+    title = "{Dark photon limits: A handbook}",
     eprint = "2105.04565",
     archivePrefix = "arXiv",
     primaryClass = "hep-ph",
     reportNumber = "NORDITA-2021-036",
-    month = "5",
+    doi = "10.1103/PhysRevD.104.095029",
+    journal = "Phys. Rev. D",
+    volume = "104",
+    number = "9",
+    pages = "095029",
     year = "2021"
 }
 ```
